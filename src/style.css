@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 /* Custom Styles if needed */
-html {
+html,
+body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
 }
