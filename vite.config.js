@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    base: './', // Ensures relative paths for assets, fixing 404s on subdirectories or custom setups
+    base: '/', // Absolute path for custom domain root
     build: {
         outDir: 'dist',
     }
